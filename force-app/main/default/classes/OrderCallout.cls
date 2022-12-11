@@ -5,6 +5,10 @@ public with sharing class OrderCallout {
             // TODO: throw error
         // }
 
+        // if (orderIds.size() > 30) {
+            // TODO: throw limitation error
+        }
+
         // query required fields of order items to send to API
         List<Order> orders = [SELECT Id, OrderNumber, Account.PersonEmail FROM Order WHERE Id IN :orderIds];
 
