@@ -21,8 +21,8 @@ In the next step we would like you to implement a simple Invocable Apex Action t
 
 ### ⚠️ Must Haves:
 
-* [ ] write good meaningful unit tests
-* [ ] use `sfdx` and `git`, commit all code and metadata needed
+* [x] write good meaningful unit tests
+* [x] use `sfdx` and `git`, commit all code and metadata needed
 * [x] make a list of limitations/possible problems
 
 ### List of limitations/possible problems
