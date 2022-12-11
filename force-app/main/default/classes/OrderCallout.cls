@@ -1,4 +1,5 @@
 public with sharing class OrderCallout {
+    @InvocableMethod(label='Send orders to API' description='Sends given orders to mock API.' category='Order')
     public static HttpResponse makeCallout(List<Id> orderIds) {
         // if (orderIds.size() == 0) {
             // TODO: throw error
