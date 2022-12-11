@@ -23,7 +23,12 @@ In the next step we would like you to implement a simple Invocable Apex Action t
 
 * [ ] write good meaningful unit tests
 * [ ] use `sfdx` and `git`, commit all code and metadata needed
-* [ ] make a list of limitations/possible problems
+* [x] make a list of limitations/possible problems
+
+### List of limitations/possible problems
+
+* Timeout of API call might be longer than default timeout time
+* There is a limit of 30 orders per request
 
 ### ✨ Bonus Points:
 
